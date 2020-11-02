@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/V1"
+        android:layout_width="252dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="108dp"
+        android:text="Please Enter number Here ---->"
+        android:textColor="#5c485b"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="167dp"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/Bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="24dp"
+        android:background="#5c485b"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:text="Learn More "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/outV"
+        android:layout_width="262dp"
+        android:layout_height="186dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="331dp"
+        android:textColor="#5c485b" />
+</RelativeLayout>
